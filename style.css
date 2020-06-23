@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    display: flex;
+    margin-top: 120px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+header {
+    position: fixed;
+    margin-left: 5%;
+}
+
+h1.title {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: 700;
+    color: #24282A;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 24px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: rgba(36, 40, 42, 0.23);
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 16px;
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    color: rgba(36, 40, 42, .56);
+}
+
+nav ul li a.active {
+    color: rgb(36, 40, 42);
+}
+
+.container {
+    margin-left: 30%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container a {
+    width: 40%;
+}
+
+.content {
+    margin-left: 12px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content-title h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 24px 0 0 24px;
+}
+
+.content-title h3 {
+    font-family: Montserrat;
+    font-weight: semi-bold;
+    font-size: 16px;
+    margin: 7px 24px;
+}
+
+.content-title p {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+}
+
+.content-title.grafit {
+    background-color: rgba(132, 123, 255, .84);
+    color: white;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.content-title.grafit:hover {
+    opacity: 1;
+}
+
+.content-title.nuse {
+    background-color: rgba(250, 203, 228, .8);
+    color: #24282A;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.content-title.nuse:hover {
+    opacity: 1;
+}
+
+.content-title.support {
+    background-color: rgba(254, 238, 125, .8);
+    color: #24282A;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.content-title.support:hover {
+    opacity: 1;
+}
+
+.content-title.weather-music {
+    background-color: rgba(255, 131, 122, .8);
+    color: white;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.content-title.weather-music:hover {
+    opacity: 1;
+}
+
+.container a {
+    display: block;
+}
+
+.content-title.ctea {
+    background-color: rgba(96, 197, 186, .8);
+    color: white;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.content-title.ctea:hover {
+    opacity: 1;
+}
+
+.content-title.wantedly {
+    background-color: rgba(165, 223, 249, .8);
+    color: #24282A;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+}
+
+.content-title.wantedly:hover {
+    opacity: 1;
+}
+
+h1.name {
+    font-size: 120px;
+    font-weight: bold;
+    width: 100%;
+    line-height: 103px;
+    letter-spacing: 8pt;
+    margin-bottom: 8px;
+    color: #24282A;
+}
+
+h2.profession {
+    font-size: 36px;
+    font-weight: medium;
+    width: 100%;
+    letter-spacing: 1.5px;
+    color: rgb(36, 40, 42);
+}
+
+.skill {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.skill h3 {
+    font-size: 31px;
+    letter-spacing: 2px;
+    color: rgb(74, 74, 74);
+    margin-bottom: 24px;
+}
+
+.skill p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(74, 74, 74);
+    line-height: 24px;
+}
+
+.history {
+    width: 100%;
+    margin-top: 48px;
+}
+
+.history h3 {
+    font-size: 31px;
+    letter-spacing: 2px;
+    color: rgb(74, 74, 74);
+    margin-bottom: 24px;
+}
+
+.history p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(74, 74, 74);
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.history p span {
+    margin-left: 24px;
+    font-weight: 600;
+}
